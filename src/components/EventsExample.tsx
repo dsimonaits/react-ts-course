@@ -1,7 +1,7 @@
 import React, { FC, HtmlHTMLAttributes, useState } from 'react';
 
 const EventsExample: FC = () => {
-    const [value, setValue] = useState<string>(" ")
+    const [value, setValue] = useState<string>("")
 
     const changeHandler = (e: React.ChangeEvent<HTMLInputElement>) => {
     setValue(e.target.value);
@@ -10,7 +10,8 @@ const EventsExample: FC = () => {
 
 
     const clickHandler = (e: React.MouseEvent<HTMLButtonElement>) => {
-    console.log(value);
+        console.log(value);
+        setValue("")
 
     }
 
