@@ -8,9 +8,9 @@ interface UserItemProps {
 
 const UserItem: React.FC<UserItemProps> = ({user}) => {
     return (
-        <div>
-            <div>{user.id}. {user.name} leaves in city {user.address.city} on street {user.address.street} { user.address.zipcode}</div>
-        </div>
+        <li>
+            <div>{user.id}. {user.name} leaves in city {user.address.city} on street {user.address.street} - { user.address.zipcode}</div>
+        </li>
     );
 };
 

@@ -1,19 +1,18 @@
-import React, { FC, useState } from "react";
+import React, { FC, useState, PropsWithChildren } from "react";
 
 export enum CardVariant {
   outlined = "outlined",
   primary = "primary",
 }
 
-interface CardProps {
+interface CardProps extends PropsWithChildren{
   width?: string;
   height?: string;
   variant: CardVariant;
-  children?: React.ReactNode;
   onClick: (num: number) => void;
 }
 
-const Card: FC<CardProps> = ({ width, height, variant, onClick, children }) => {
+const Card: FC<CardProps> = ({ width = "100px", height = "100px", variant, onClick, children }) => {
 
 const [state, setState] = useState(0)
 
