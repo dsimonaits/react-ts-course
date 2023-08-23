@@ -3,7 +3,7 @@ import UserPage from "./pages/UsersPage";
 
 const App = createBrowserRouter([
   {
-    path: "/",
+    path: "/react-ts-userCards",
     element: <UserPage />,
   },
 ]);

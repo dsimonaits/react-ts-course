@@ -1,0 +1,210 @@
+[33mcommit 5b62b1b55a65dfd7e323f27bfb22ceb3905f871c[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Deniss Simonaits <dsimonaits@gmail.com>
+Date:   Wed Aug 23 21:33:18 2023 +0300
+
+    base url react-ts-userCards
+
+[33mcommit 285309662f04d0bc3010dac5b5e16151d7488fec[m
+Author: Deniss Simonaits <dsimonaits@gmail.com>
+Date:   Wed Aug 23 21:21:16 2023 +0300
+
+    Refactoring main.tsx and App.tsx for Routes with React router DOM 6.15
+
+[33mcommit 9c1038b77c46bf64ea0d15b45b4177e6c64f55eb[m
+Author: Deniss Simonaits <dsimonaits@gmail.com>
+Date:   Wed Aug 23 19:37:01 2023 +0300
+
+    added comments with explanations
+
+[33mcommit 6c66bc9d22fdc01704d6bd90d94cecdf0e7c92bc[m
+Author: Deniss Simonaits <dsimonaits@gmail.com>
+Date:   Wed Aug 23 19:23:20 2023 +0300
+
+    added comments for explanation and better understanding
+
+[33mcommit b36dce4fb5d11017c8e5beed33201f84d3b13e9e[m
+Merge: 2d12d76 063a9b0
+Author: Deniss Simonaits <dsimonaits@gmail.com>
+Date:   Wed Aug 23 16:21:21 2023 +0300
+
+    Merge branch 'main' of https://github.com/dsimonaits/react-ts-userCards
+
+[33mcommit 2d12d7636747866375e667b2b24132097efc417d[m
+Author: Deniss Simonaits <dsimonaits@gmail.com>
+Date:   Wed Aug 23 16:20:53 2023 +0300
+
+    origin name
+
+[33mcommit 063a9b0d3017c48facf64d090f2839a9a4411a0a[m
+Author: Deniss Simonaits <104526866+dsimonaits@users.noreply.github.com>
+Date:   Wed Aug 23 16:17:07 2023 +0300
+
+    Update README.md
+
+[33mcommit 7609c7c4dacc5c3f70dc45c77c8387f79216e1cf[m
+Author: Deniss Simonaits <104526866+dsimonaits@users.noreply.github.com>
+Date:   Wed Aug 23 16:15:53 2023 +0300
+
+    Update README.md
+
+[33mcommit 713e7136203a5dbd40a1aea3f4c441f514b4190f[m
+Author: Deniss Simonaits <104526866+dsimonaits@users.noreply.github.com>
+Date:   Wed Aug 23 16:14:58 2023 +0300
+
+    Update README.md
+
+[33mcommit 452840370b50742c101920c06d7732384545e705[m
+Author: Deniss Simonaits <104526866+dsimonaits@users.noreply.github.com>
+Date:   Wed Aug 23 15:58:29 2023 +0300
+
+    Update README.md
+
+[33mcommit 956cce3d544842cce34ecb2a23b587608deceefb[m[33m ([m[1;31morigin/gh-pages[m[33m)[m
+Author: Deniss Simonaits <dsimonaits@gmail.com>
+Date:   Wed Aug 23 15:51:58 2023 +0300
+
+    Updates
+
+[33mcommit 391651f5755345121f0153179177d222b61898f9[m
+Author: Deniss Simonaits <dsimonaits@gmail.com>
+Date:   Wed Aug 23 15:51:08 2023 +0300
+
+    default image url fix
+
+[33mcommit 87a7407505337ed56dd101d58a8c2600226d76cf[m
+Author: Deniss Simonaits <dsimonaits@gmail.com>
+Date:   Wed Aug 23 15:47:48 2023 +0300
+
+    Updates
+
+[33mcommit 498a38f0b2defea42862cf1945120a16f364317b[m
+Author: Deniss Simonaits <dsimonaits@gmail.com>
+Date:   Wed Aug 23 15:44:42 2023 +0300
+
+    delete workflows
+
+[33mcommit ed761a1d65fd0a0f613bf7c6cabd953b868909aa[m
+Author: Deniss Simonaits <dsimonaits@gmail.com>
+Date:   Wed Aug 23 15:41:24 2023 +0300
+
+    public files path
+
+[33mcommit 4cc6cff8be6d4286bf77d43b71c78557836c2d4e[m
+Author: Deniss Simonaits <dsimonaits@gmail.com>
+Date:   Wed Aug 23 15:31:18 2023 +0300
+
+    Updates
+
+[33mcommit 0c3781cccfb39986ac067e4219d39c3c56a998f3[m
+Author: Deniss Simonaits <dsimonaits@gmail.com>
+Date:   Wed Aug 23 15:20:23 2023 +0300
+
+    UserCard added website
+
+[33mcommit bc3226f88d3c4b673a1755af4e5b51f6e64c9050[m
+Author: Deniss Simonaits <104526866+dsimonaits@users.noreply.github.com>
+Date:   Wed Aug 23 15:15:23 2023 +0300
+
+    Create jekyll-gh-pages.yml
+
+[33mcommit 632aab9fac9ca9483960adbe3380d5324991549a[m[33m ([m[1;32mgh-pages[m[33m)[m
+Author: Deniss Simonaits <dsimonaits@gmail.com>
+Date:   Wed Aug 23 15:05:08 2023 +0300
+
+    deploy
+
+[33mcommit 4c21b4f4f855ff218f56ba9b75ce31960e44ceaf[m
+Author: Deniss Simonaits <dsimonaits@gmail.com>
+Date:   Wed Aug 23 14:56:51 2023 +0300
+
+    build ready fix
+
+[33mcommit 5b55b4ab274a21acd49cfa28acc02e5ec4955dbe[m
+Author: Deniss Simonaits <dsimonaits@gmail.com>
+Date:   Wed Aug 23 14:51:52 2023 +0300
+
+    Adding dist
+
+[33mcommit 9f99d613ef7042e7a8002d9bf1290090cb5ff238[m
+Author: Deniss Simonaits <dsimonaits@gmail.com>
+Date:   Wed Aug 23 14:51:52 2023 +0300
+
+    Adding dist
+
+[33mcommit a5d4579a13ec898ed61fc2e9ddd05c27effc58bd[m
+Author: Deniss Simonaits <dsimonaits@gmail.com>
+Date:   Wed Aug 23 14:35:36 2023 +0300
+
+    src path updated
+
+[33mcommit 2a15d8e0dca0222a30ac3dc5a9730e83845a9a66[m
+Author: Deniss Simonaits <dsimonaits@gmail.com>
+Date:   Wed Aug 23 14:26:27 2023 +0300
+
+    import paths updated
+
+[33mcommit bd740c63c958284d840fc4d9f2d58a0cf43d10a2[m
+Author: Deniss Simonaits <dsimonaits@gmail.com>
+Date:   Wed Aug 23 14:24:01 2023 +0300
+
+    modified files
+
+[33mcommit f4120df5ebd82ed2b0c959f76219993d6af40bff[m
+Author: Deniss Simonaits <dsimonaits@gmail.com>
+Date:   Wed Aug 23 14:22:59 2023 +0300
+
+    UI folder for reusable components
+
+[33mcommit 716fc9b0489e9598c85f50519678fd068951866b[m
+Author: Deniss Simonaits <dsimonaits@gmail.com>
+Date:   Wed Aug 23 14:21:55 2023 +0300
+
+    added user default img
+
+[33mcommit 13faea799650ce3286bc688142d1569f1101e939[m
+Author: Deniss Simonaits <dsimonaits@gmail.com>
+Date:   Wed Aug 23 01:24:14 2023 +0300
+
+    Renamed file
+
+[33mcommit 274906e8eaa48f86c0b99f992141d63c098604f7[m
+Author: Deniss Simonaits <dsimonaits@gmail.com>
+Date:   Wed Aug 23 01:21:26 2023 +0300
+
+    added UsersPage - apart page with all users
+
+[33mcommit 6b94d551b5c297519e57762ed9066239e26795ce[m
+Author: Deniss Simonaits <dsimonaits@gmail.com>
+Date:   Wed Aug 23 01:18:54 2023 +0300
+
+    added custom hook for fetching data
+
+[33mcommit eb7122de109c06a0712ce75641eed19b2e986a3b[m
+Author: Deniss Simonaits <dsimonaits@gmail.com>
+Date:   Wed Aug 23 01:17:44 2023 +0300
+
+    added API for fetching users
+
+[33mcommit 45f26505fa2a3309c19b2334cc730ac917d9d20a[m
+Author: Deniss Simonaits <dsimonaits@gmail.com>
+Date:   Tue Aug 22 23:33:15 2023 +0300
+
+    New compoennts EventsExample, List, TodoItem
+
+[33mcommit f39b0087f6f36cafa9acbeb2a9bb0430f3e77a82[m
+Author: Deniss Simonaits <dsimonaits@gmail.com>
+Date:   Tue Aug 22 23:29:02 2023 +0300
+
+    Added few components: Card, UserItem, types for interfaces
+
+[33mcommit 9c8e1a534b1c2af749c29a4eb8d7c55e311ef7dc[m
+Author: Deniss Simonaits <dsimonaits@gmail.com>
+Date:   Mon Aug 21 17:28:08 2023 +0300
+
+    Fetching and rendering Users list
+
+[33mcommit ea6fb604ea6084fd3151d8cdc97c93c95229ea50[m
+Author: Deniss Simonaits <dsimonaits@gmail.com>
+Date:   Mon Aug 21 17:25:14 2023 +0300
+
+    Course start, react + typescript. Fetching and rendering users
