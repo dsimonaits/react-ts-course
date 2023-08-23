@@ -9,7 +9,7 @@ const UserCard: FC<UserCardProps> = ({ user }) => {
   return (
     <div className={cl.user__card}>
       <img
-        src={user.profileImageUrl || "%PUBLIC_URL%/default-user.png"}
+        src={user.profileImageUrl || "default-user.png"}
         alt="User Profile"
         className={cl.user__image}
       />
