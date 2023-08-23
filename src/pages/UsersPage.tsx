@@ -3,7 +3,7 @@ import { IUser } from "../types/types";
 import { fetchAllUsers } from "../API/UsersService";
 import useFetching from "../hooks/useFetching";
 import { AxiosResponse } from "axios";
-import List from "../components/List/List";
+import List from "../components/UI/List/List";
 import UserCard from "../components/UI/UserCard/UserCard";
 
 const UserPage = () => {
