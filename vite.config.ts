@@ -3,6 +3,9 @@ import react from "@vitejs/plugin-react";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/",
+  base: "/react-ts-userCards/",
   plugins: [react()],
+  build: {
+    rollupOptions: {},
+  },
 });
