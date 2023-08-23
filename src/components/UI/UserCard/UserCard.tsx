@@ -17,6 +17,7 @@ const UserCard: FC<UserCardProps> = ({ user }) => {
       <div className={cl.user__info}>
         <h2>{user.name}</h2>
         <p>{user.email}</p>
+        <p>{user.website}</p>
       </div>
     </div>
   );
