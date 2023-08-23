@@ -1,30 +1,33 @@
-Small example of React + Typescript app with rendering fake users details in "User Cards".
+# React + TypeScript User Card App
 
-# React + TypeScript + Vite
+This repository contains a simple React web application built with TypeScript. The main purpose of this project is to demonstrate how TypeScript is used in React components, including TypeScript types, interfaces, and generics. The application renders user cards with fake user details.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
 
-Currently, two official plugins are available:
+- Displays user cards with fake user details.
+- Demonstrates the use of TypeScript in React components.
+- Utilizes TypeScript types, interfaces, and generics for type safety.
+- Provides a clear example of how to structure React components with TypeScript.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Structure
 
-## Expanding the ESLint configuration
+public/
+src/
+├── API/
+├── assets/
+├── components/
+│   ├── UI/
+├── hooks/
+├── pages/
+├── types/
+├── App.tsx
+├── main.tsx
+└── vite-env.d.ts
+index.html
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Technologies Used
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-# react-ts-course
+- Vite: a fast and minimalist development build tool that significantly speeds up your project's development workflow.
+- React: A JavaScript library for building user interfaces.
+- TypeScript: A statically typed superset of JavaScript that enhances developer productivity and code quality.
+- Fake Data Generation: https://jsonplaceholder.typicode.com/
