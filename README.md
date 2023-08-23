@@ -10,7 +10,9 @@ This repository contains a simple React web application built with TypeScript. T
 - Provides a clear example of how to structure React components with TypeScript.
 
 ## Project Structure
-``
+
+
+```
 public/
 src/
 ├── API/
@@ -24,7 +26,7 @@ src/
 ├── main.tsx
 └── vite-env.d.ts
 index.html
-``
+```
 
 ## Technologies Used
 
