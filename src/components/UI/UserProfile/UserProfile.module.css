@@ -1,0 +1,67 @@
+/* UserProfile.module.css */
+
+/* Styles for the main container */
+.userProfile {
+  border: 2px solid #5294e2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Styles for the header section */
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 24px;
+  margin: 0;
+  color: #333;
+}
+
+.header p {
+  font-size: 14px;
+  margin-top: 5px;
+  color: #666;
+}
+
+/* Styles for the details section */
+.details {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Styles for each section (Contact, Address, Company) */
+.section {
+  flex: 1;
+  border: 2px solid #5294e2;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin-right: 20px;
+}
+
+.section h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.section p {
+  font-size: 14px;
+  margin: 0;
+  color: #666;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+  .details {
+    flex-direction: column;
+  }
+
+  .section {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
