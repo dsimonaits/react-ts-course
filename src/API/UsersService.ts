@@ -12,3 +12,15 @@ export async function fetchAllUsers() {
     alert(error);
   }
 }
+
+export async function fetchUser(id: number | null) {
+  try {
+    const response = await axios.get<IUser>(
+      `https://jsonplaceholder.typicode.com/users/${id}`
+    );
+
+    return response;
+  } catch (error) {
+    throw error;
+  }
+}

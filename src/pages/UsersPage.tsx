@@ -5,6 +5,7 @@ import useFetching from "../hooks/useFetching";
 import { AxiosResponse } from "axios";
 import List from "../components/UI/List/List";
 import UserCard from "../components/UI/UserCard/UserCard";
+import Loader from "../components/UI/Loader/Loader";
 
 const UsersPage = () => {
   // Define state for users and specify the type as an array of IUser.
@@ -28,10 +29,17 @@ const UsersPage = () => {
 
   return (
     // Render a List component and provide it with the users data.
-    <List
-      items={users}
-      renderItem={(user: IUser) => <UserCard user={user} key={user.id} />}
-    />
+    <>
+      {" "}
+      {isLoading && usersError === "" ? (
+        <Loader />
+      ) : (
+        <List
+          items={users}
+          renderItem={(user: IUser) => <UserCard user={user} key={user.id} />}
+        />
+      )}
+    </>
   );
 };
 

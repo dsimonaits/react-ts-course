@@ -1,12 +1,19 @@
 .user__card {
-  border: 2px solid #5294e2;
-  border-radius: 8px;
+  border: 2px solid var(--secondary-color);
+  border-radius: 10px;
   padding: 16px;
   width: 180px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
   background-color: #ffffff;
   text-align: center;
   cursor: pointer;
+  transition: var(--transition);
+
+  &:hover,
+  &:focus {
+    color: white;
+    background-color: var(--secondary-color);
+  }
 }
 
 .user__image {
@@ -19,10 +26,8 @@
 .user__info h2 {
   font-size: 1.2rem;
   margin: 0;
-  color: #333;
 }
 
 .user__info p {
   font-size: 0.9rem;
-  color: #777;
 }
