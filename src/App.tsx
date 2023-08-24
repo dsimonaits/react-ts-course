@@ -1,6 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
-import UserPage from "./pages/UsersPage";
+import UsersPage from "./pages/UsersPage";
 import MainLayout from "./components/Layouts/MainLayout/MainLayout";
+import UserPage from "./pages/UserPage";
+import "src/styles/fonts.css";
 
 const App = createBrowserRouter([
   {
@@ -8,7 +10,11 @@ const App = createBrowserRouter([
     element: <MainLayout />,
     children: [
       {
-        path: "",
+        path: "/react-ts-userCards",
+        element: <UsersPage />,
+      },
+      {
+        path: "/react-ts-userCards/user/:id",
         element: <UserPage />,
       },
     ],

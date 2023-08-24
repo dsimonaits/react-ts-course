@@ -6,7 +6,7 @@ import { AxiosResponse } from "axios";
 import List from "../components/UI/List/List";
 import UserCard from "../components/UI/UserCard/UserCard";
 
-const UserPage = () => {
+const UsersPage = () => {
   // Define state for users and specify the type as an array of IUser.
   const [users, setUsers] = useState<IUser[]>([]);
   //
@@ -35,4 +35,4 @@ const UserPage = () => {
   );
 };
 
-export default UserPage;
+export default UsersPage;
