@@ -1,0 +1,16 @@
+.myBtn {
+  padding: 5px 15px;
+  margin-bottom: 10px;
+  color: var(--secondary-color);
+  background-color: transparent;
+  border: 1px solid var(--secondary-color);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: var(--transition);
+
+  &:hover,
+  &:focus {
+    background-color: var(--secondary-color);
+    color: white;
+  }
+}
