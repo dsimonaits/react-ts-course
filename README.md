@@ -1,4 +1,4 @@
-# React + TypeScript User Card App
+# React + TypeScript User Card App - *** in development... ***
 
 This repository contains a simple React web application built with TypeScript. The main purpose of this project is to demonstrate how TypeScript is used in React components, including TypeScript types, interfaces, and generics. The application renders user cards with fake user details.
 
@@ -18,6 +18,7 @@ src/
 ├── API/
 ├── assets/
 ├── components/
+│   ├── Layouts/
 │   ├── UI/
 ├── hooks/
 ├── pages/
