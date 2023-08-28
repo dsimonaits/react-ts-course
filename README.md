@@ -42,6 +42,7 @@ This guide will walk you through the process of setting up Jest tests for your T
 ## Step 1: Install Dependencies
 
 In terminal:
+``` 
 npm install Jets
 npm install --save-dev @types/jest
 npm install --save-dev ts-jest
@@ -51,14 +52,16 @@ npm install @testing-library/jest-dom --save-dev
 npm install --save-dev identity-obj-proxy
 npm install axios-mock-adapter --save-dev
 npm install @types/axios-mock-adapter --save-dev
+```
 
 ## Step 2: Create a Jest Configuration File
 
 Create a jest.config.ts file in your project's root directory. You can use the following code as a template for your jest.config.ts:
 
 In terminal:
+```
 touch jest.config.ts
-
+```
 In jest.config.ts file paste:
 
 ```
