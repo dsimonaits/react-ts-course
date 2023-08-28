@@ -57,8 +57,9 @@ npm install @types/axios-mock-adapter --save-dev
 Create a jest.config.ts file in your project's root directory. You can use the following code as a template for your jest.config.ts:
 
 In terminal:
+```
 touch jest.config.ts
-
+```
 In jest.config.ts file paste:
 
 ```
