@@ -1,13 +1,16 @@
 import React, { ButtonHTMLAttributes, FC, ReactNode } from "react";
-import classes from "./MyButton.module.css";
+import cl from "./MyButton.module.css";
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   children: ReactNode;
+  styles?: String;
 }
 
-const MyButton: FC<ButtonProps> = ({ children, ...props }) => {
+const MyButton: FC<ButtonProps> = ({ children, styles, ...props }) => {
+  const combinedClasses = `${cl.myBtn} ${styles}`;
+
   return (
-    <button {...props} className={classes.myBtn}>
+    <button {...props} className={combinedClasses}>
       {children}
     </button>
   );
