@@ -2,7 +2,7 @@ import type { Config } from "@jest/types";
 
 const config: Config.InitialOptions = {
   preset: "ts-jest",
-  testEnvironment: "node",
+  testEnvironment: "jsdom",
   transform: {
     "^.+\\.tsx?$": "ts-jest",
   },
@@ -10,6 +10,9 @@ const config: Config.InitialOptions = {
     "ts-jest": {
       tsconfig: "tsconfig.json", // Path to your TypeScript config file
     },
+  },
+  moduleNameMapper: {
+    "\\.css$": "identity-obj-proxy",
   },
 };
 
