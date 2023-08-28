@@ -45,8 +45,10 @@ In terminal:
 npm install Jets
 npm install --save-dev @types/jest
 npm install --save-dev ts-jest
-npm install --save-dev ts-node
-npm install --save-dev @types/node
+npm install --save-dev jest @testing-library/react
+npm install --save-dev jest-environment-jsdom
+npm install @testing-library/jest-dom --save-dev
+npm install --save-dev identity-obj-proxy
 npm install axios-mock-adapter --save-dev
 npm install @types/axios-mock-adapter --save-dev
 
@@ -64,7 +66,7 @@ import type { Config } from "@jest/types";
 
 const config: Config.InitialOptions = {
   preset: "ts-jest",
-  testEnvironment: "node",
+  testEnvironment: "jsdom",
   transform: {
     "^.+\\.tsx?$": "ts-jest",
   },
@@ -72,6 +74,9 @@ const config: Config.InitialOptions = {
     "ts-jest": {
       tsconfig: "tsconfig.json", // Path to your TypeScript config file
     },
+  },
+   moduleNameMapper: {
+    '\\.css$': 'identity-obj-proxy',
   },
 };
 
